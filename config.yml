@@ -2,6 +2,9 @@ backend:
   name: github
   repo: haithamitc-arch/noor-albedaya-website
   branch: main
+  base_url: https://api.netlify.com
+  auth_type: implicit
+  app_id: Iv1.xxxxxxxxxxxxxxx # أو اتركه فارغاً وسيتم الاعتماد على Netlify تلقائياً
 
 media_folder: "images"
 public_folder: "/images"
